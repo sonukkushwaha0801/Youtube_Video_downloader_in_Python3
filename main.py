@@ -1,3 +1,6 @@
+# For installing the pytube
+# pip install -r Requirement
+
 import pytube
 Downloading_URL = input("Enter the URL of the video you want to download: ")
 youtube = pytube.YouTube(Downloading_URL)
